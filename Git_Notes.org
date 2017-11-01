@@ -1,0 +1,15 @@
+* Set Up
+** after installing git from apt-get
+*** to set username and email for all directories
+ -use ~$git config --global user.name "username"~ //org doesn't highlight with ~""~
+ -confirm with ~$git config --global user.name~
+   -should return the user name set above
+ - use ~$git config --global user.email "email@email.com"~
+ - check with git config ~$git config --global user.email~
+
+*** to set for a specific directory
+ -use ~git config user.name "username"~ //org doesn't highlight with ~""~
+ -confirm with ~git config user.name~
+   -should return the user name set above
+ - use ~$git config user.email "email@email.com"~
+ - check with git config ~$git config user.email~
